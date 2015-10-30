@@ -5,4 +5,5 @@ test:
 
 production:
   SECRET_KEY_BASE: 13f3e298cd6598239332b69b414fedf0ee708f5898945ad689f609748a7a801318e964275a903d70afd38cf4a062edf7852271e6b218eb77101bfc2bbbd197a8
-
+  DB_USERNAME: generic_app_username
+  DB_PASSWORD: generic_app_password
