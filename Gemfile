@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Application
-gem 'rails', '4.2.4'
+gem 'rails', '~> 4.2.4'
 gem 'pg', '0.18.3', path: 'gems/pg'
 
 # Assets
