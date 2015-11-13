@@ -1,2 +1,0 @@
---- 
-exclude: !ruby/regexp /(?:\.(hg|hoe|bundle|irb|pry|rvm|tm|DS_Store|travis\.yml)|tmp|certs|build|lib/.*(so|dll)|appveyor\.yml|misc|Gemfile)/
