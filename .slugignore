@@ -1,0 +1,14 @@
+/.git
+/ansible
+.rubocop.yml
+.rspec
+README.md
+Vagrantfile
+/vagrant
+requirements.yml
+Guardfile
+/log
+/spec
+config/*.yml.example
+.slugignore
+
