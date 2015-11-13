@@ -15,6 +15,7 @@ gem 'figaro'
 
 # Optimizations
 gem 'mime-types', '~> 2.6', '>= 2.6.1', require: 'mime/types/columnar'
+gem 'kgio'
 
 group :production do
   gem 'passenger'
