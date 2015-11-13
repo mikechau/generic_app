@@ -1,3 +1,8 @@
+PATH
+  remote: gems/pg
+  specs:
+    pg (0.18.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -106,7 +111,6 @@ GEM
     passenger (5.0.21)
       rack
       rake (>= 0.8.1)
-    pg (0.18.3)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -219,7 +223,7 @@ DEPENDENCIES
   jquery-rails
   mime-types (~> 2.6, >= 2.6.1)
   passenger
-  pg
+  pg (= 0.18.3)!
   quiet_assets
   rails (= 4.2.4)
   rb-readline
