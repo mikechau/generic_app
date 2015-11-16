@@ -33,5 +33,7 @@ module GenericApp
     config.active_record.raise_in_transactional_callbacks = true
 
     config.secret_key_base = ENV['SECRET_KEY_BASE']
+    
+    config.assets.manifest = "#{ENV['RAILS_ASSETS_MANIFEST_PATH']}" unless ENV['RAILS_ASSETS_MANIFEST_PATH'].blank?
   end
 end
